@@ -1,0 +1,23 @@
+/* line 1, main.sass */
+body, html, canvas, #message {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 11, main.sass */
+#message {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Garamond", serif;
+  padding: 50px;
+}
